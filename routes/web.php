@@ -13,4 +13,5 @@
 
 Route::get('/', 'PagesController@index');
 Route::get('/test', 'PagesController@pageTest');
+Route::resource('articles', 'ArticlesController');
 
