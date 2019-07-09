@@ -1,3 +1,5 @@
-# Cours 3
+# Cours 4
 
-Ajout de d'un seeder et factory pour les articles
+Creation d'un controller avec les fonctions resources (CRUD)
+
+console : php artisan make:controller ArticlesController --resource
