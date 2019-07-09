@@ -1,3 +1,3 @@
-# Cours 2
+# Cours 3
 
-Ajout de la BDD, models, lien avec controllers
+Ajout de d'un seeder et factory pour les articles
