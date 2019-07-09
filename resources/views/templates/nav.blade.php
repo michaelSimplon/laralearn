@@ -10,6 +10,10 @@
             <li class="nav-item active">
                 <a class="nav-link" href="/test">Test</a>
             </li>
+
+            <li class="nav-item active">
+                <a class="nav-link" href="/articles">Articles</a>
+            </li>
                       
             <li class="nav-item active">
                 <a class="nav-link" href="/private/privatezone">Zone privée</a>
