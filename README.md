@@ -1,6 +1,3 @@
-# Cours 5
+# Cours 6
 
-fonction index de ArticlesController, model associé et view
-
-console : php artisan make:controller ArticlesController --resource
-console : php artisan route:list // affiche la liste des routes sur le terminal
+methode show de articles et pagination automatique
