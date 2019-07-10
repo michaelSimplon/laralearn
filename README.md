@@ -1,3 +1,3 @@
-# Cours 7
+# Cours 8
 
-methode create et store de articles
+methode edit, update et delete de articles
