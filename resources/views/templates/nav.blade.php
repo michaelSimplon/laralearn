@@ -14,6 +14,9 @@
             <li class="nav-item active">
                 <a class="nav-link" href="/articles">Articles</a>
             </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/articles/create">Ecrire un article</a>
+            </li>
                       
             <li class="nav-item active">
                 <a class="nav-link" href="/private/privatezone">Zone privée</a>

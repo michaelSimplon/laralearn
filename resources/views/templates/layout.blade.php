@@ -12,6 +12,7 @@
     @include('templates.nav')
 
     <div class="container">
+        @include('templates.messages')
         @yield('content')
     </div>
 

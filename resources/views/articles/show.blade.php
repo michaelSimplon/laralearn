@@ -13,7 +13,7 @@
             <div class="card-body">
                 <p class="card-text">{{ $article->contenu }}</p>
             
-            <a href="articles" class="btn btn-secondary">Retour</a>
+            <a href="/articles" class="btn btn-secondary">Retour</a>
             </div>
         </div>
 

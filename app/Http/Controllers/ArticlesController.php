@@ -14,7 +14,7 @@ class ArticlesController extends Controller
      */
     public function index()
     {
-        $articles = Article::orderBy('created_at', 'asc')->paginate(5);
+        $articles = Article::orderBy('created_at', 'desc')->paginate(5);
         return view('articles.index')->with('articles', $articles);
     }
 
@@ -25,7 +25,7 @@ class ArticlesController extends Controller
      */
     public function create()
     {
-        //
+        return view('articles.create');
     }
 
     /**
@@ -36,7 +36,16 @@ class ArticlesController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'titre' => 'required',
+            'contenu' => 'required'
+        ]);
+        $article = Article::create([
+            'titre' => request('titre'),
+            'contenu' => request('contenu')
+        ]);
+
+        return redirect('/articles')->with('success', 'Article créé');
     }
 
     /**

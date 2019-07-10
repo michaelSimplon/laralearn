@@ -1,3 +1,3 @@
-# Cours 6
+# Cours 7
 
-methode show de articles et pagination automatique
+methode create et store de articles

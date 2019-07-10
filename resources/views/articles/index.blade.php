@@ -6,11 +6,12 @@
     </div>
 </div>
 @if (count($articles) > 0)
+    {{ $articles->links() }}
     @foreach ($articles as $article)
         <div class="card mb-3">
             <div class="card-header">
                     <h5>{{ $article->titre }}</h5>
-                    <small>Créé le {{ $article->created_at }}</small>
+                    <small>Créé le {{ $article->created_at->format('d-m-Y \à H:i:s') }}</small>
             </div> 
             <div class="card-body">
                 <p class="card-text">{{ str_limit($article->contenu, 150) }}</p>
